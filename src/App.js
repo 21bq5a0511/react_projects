@@ -1,19 +1,13 @@
-import React, { Component } from "react";
+//import Welcome from "./Welcome";
+import Counter from "./Counter"
+function App(){
+  return (
+   
+    <div>
+   <Counter/>
+    </div>
 
-class MyApp extends Component {
-  constructor(props) {
-    super(props);
-    this.sayHello = this.sayHello.bind(this);
-  }
-  sayHello() {
-    alert("Hello!");
-  }
-  render() {
-    return (
-      <div>
-        <button onClick={this.sayHello}>Click me!</button>
-      </div>
-    );
-  }
+
+  )
 }
-export default MyApp;
+export default App;
